@@ -92,5 +92,4 @@ $Azfw = New-AzFirewall -Name firewall1 -ResourceGroupName $rg `
 
 $rgVnet = 'firewall-vnet'
 
-New-AzResourceGroup -Name $rg -Location $loc `
--Tag @{topic = "Networking"; question = "110" }
+
